@@ -17,7 +17,7 @@ python3 manage.py migrate --no-input
 
 # Start Gunicorn server
 echo "Starting Gunicorn..."
-gunicorn sptms_api.wsgi:application \
-    --bind 0.0.0.0:$PORT \
-    --workers 3 \
-    --timeout 120
+# gunicorn sptms_api.wsgi:application \
+#     --bind 0.0.0.0:$PORT \
+#     --workers 3 \
+#     --timeout 120
