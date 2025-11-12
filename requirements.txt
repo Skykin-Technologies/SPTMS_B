@@ -19,9 +19,9 @@ requests>=2.31.0
 # Testing packages 
 
 
-# pytest 
-# pytest-django 
-# pytest-factoryboy 
-# coverage 
-# pytest-cov 
-# pytest-html
+pytest 
+pytest-django 
+pytest-factoryboy 
+coverage 
+pytest-cov 
+pytest-html
